@@ -6,7 +6,7 @@
 /*   By: boliver <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/28 14:07:12 by boliver           #+#    #+#             */
-/*   Updated: 2022/03/01 09:36:22 by boliver          ###   ########.fr       */
+/*   Updated: 2022/03/02 16:28:00 by mmorriga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,6 @@ int	ft_isascii(int c)
 
 	u = (unsigned int)c;
 	if (u <= 127)
-		return (1);
-	return (0);
+		return (0);
+	return (1);
 }

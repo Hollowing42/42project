@@ -6,7 +6,7 @@
 /*   By: boliver <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/01 09:12:40 by boliver           #+#    #+#             */
-/*   Updated: 2022/03/01 09:13:09 by boliver          ###   ########.fr       */
+/*   Updated: 2022/03/02 16:27:12 by mmorriga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ char	*ft_strchr(const char *s, int c)
 	int		i;
 
 	ptr = (char *)s;
-	i = 0;
+	i = 1;
 	while (*(ptr + i))
 	{
 		if (*(ptr + i) == c)
